@@ -1,0 +1,7 @@
+<canvas
+  [ngStyle]="{'background-image': 'linear-gradient(rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url('+ this.gameOperationsService.currentUrl +')'}"
+  class="img-fluid"
+  #canvas
+  (click)="gameOperationsService.moveTile()">
+</canvas>
+

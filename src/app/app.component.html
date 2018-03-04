@@ -1,0 +1,22 @@
+<div id="header" class="d-flex flex-row justify-content-center">
+  <div class="p-1 flex-item">
+    <h1>Puzzle Game</h1>
+  </div>
+</div>
+
+<div class="d-flex flex-row justify-content-center align-items-center">
+  <div class="p-2 flex-item">
+    <app-canvas></app-canvas>
+  </div>
+</div>
+
+<div class="d-flex flex-row justify-content-center align-items-center">
+  <div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary text-center" (click)="gameService.shuffle()">Shuffle</button>
+    <button type="button" class="btn btn-secondary text-center" (click)="gameService.displayImage()">New Picture
+    </button>
+  </div>
+</div>
+
+
+
